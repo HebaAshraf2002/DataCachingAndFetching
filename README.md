@@ -6,19 +6,18 @@ This Flutter application fetches user data from an API, parses the JSON response
 - Rendering dynamic data in the user interface using widgets like ListView.builder.
   
 The app is split into three main layers:
-
-1- Models: Defines the structure of the data.
-2- Services: Handles communication with the API.
-3- UI Components: Presents the data to the user.
+1. Models: Defines the structure of the data.
+2. Services: Handles communication with the API.
+3. UI Components: Presents the data to the user.
 
 # What the Code Does
-1- Fetch Data from API:
+1. Fetch Data from API:
    The app fetches user data from the JSONPlaceholder API. Each user record includes details like name, username, email, address, and company information.
-2- Parse JSON Data:
+2. Parse JSON Data:
    The API response is parsed into Dart objects using classes like User, Address, and Company. These models make it easier to access and manipulate the data.
-3- Display Data in UI:
+3. Display Data in UI:
   The user data is displayed in a clean, scrollable list using the ListView.builder widget. Each list item includes the user's name and username in a visually appealing card.
-4- Navigate Between Screens:
+4. Navigate Between Screens:
    The app has a home screen (FetchData.dart) with a button that navigates to the user list screen (DataEmployee.dart).
 
 # How the Code Works
